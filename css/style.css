@@ -1,0 +1,66 @@
+/*commo start*/
+body{
+    font-family: 'poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/*parallax scrolling start*/
+.pa_1{
+    font-size: 60px;
+    font-weight: 500;
+    color: darkblue;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.bg_px{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bg_px img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover !important;
+    z-index: -1; 
+}
+.bg_px h2{
+    font-size: 150px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    padding: 80px 120px;
+    background-color: #000;
+
+}
+.content h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffdd00;
+}
+.content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #c4c4c4;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 30px;
+}
+/*parallax scrolling end*/
+
+/*init jarallax start*/
+.parallax-window{
+    min-height: 500px;
+    background: transparent;
+}
+/*init jarallax end*/
